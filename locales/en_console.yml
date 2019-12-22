@@ -1,0 +1,22 @@
+en:
+  start: 'start'
+  rules: 'rules' 
+  stats: 'stats'
+  exit: 'exit'
+  option_error: 'You have passed unexpected command. Please choose one from listed commands'
+  enter_name: 'Enter your name: '
+  hello: 'Hello, %{name}'
+  goodbye: 'Goodbye, %{name}'
+  choose_option: 'Choose option: '
+  start_option: 'start - start the game'
+  rules_option: 'rules - show rules'
+  stats_option: 'stats - show statistics'
+  exit_option: 'exit - exit game'
+  enter_difficulty: 'Choose difficulty: '
+  take_hint: 'hint - show hint.'
+  hint: "Hint: %{hint}"
+  guess_secret_code: '4 digits number - guess secret code.'
+  request_answer: 'Enter 4 digits number: '
+  show_hints_and_attempts: "You have: hints - %{hints}, attempts - %{attempts}."
+  try_again: 'If you want to try again type `yes`'
+  save_stats: 'If you want to save your data type `yes`'

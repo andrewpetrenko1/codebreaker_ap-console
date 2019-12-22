@@ -1,0 +1,22 @@
+ru:
+  start: 'start'
+  rules: 'rules' 
+  stats: 'stats'
+  exit: 'exit'
+  option_error: 'Вы ввели неправильную команду. Выберите одну из представленых команд: '
+  enter_name: 'Введите своё имя: '
+  hello: 'Привет, %{name}'
+  goodbye: 'Пока, %{name}'
+  choose_option: 'Выберите опцию: '
+  start_option: 'start - начать игру'
+  rules_option: 'rules - показать правила'
+  stats_option: 'stats - показать статистику'
+  exit_option: 'exit - выйти из игры'
+  enter_difficulty: 'Выберите сложность: '
+  take_hint: 'hint - показать подсказку.'
+  hint: "Подсказка: %{hint}"
+  guess_secret_code: '4х значное число - угадать секретный код.'
+  request_answer: 'Введите 4х значное число: '
+  show_hints_and_attempts: "У вас есть: подсказок - %{hints}, попыток - %{attempts}."
+  try_again: 'Если хотите начать сначала, напишите `yes`'
+  save_stats: 'Если хотите сохранить ваши данные, напишите `yes`'
