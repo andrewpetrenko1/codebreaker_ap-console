@@ -1,2 +1,8 @@
 # codebreaker_ap-console
 Console interface for codebreaker_ap gem
+## Usage
+
+Start console:
+```ruby
+Console.new.start
+```
