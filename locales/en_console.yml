@@ -7,6 +7,7 @@ en:
   enter_name: 'Enter your name: '
   hello: 'Hello, %{name}'
   goodbye: 'Goodbye, %{name}'
+  goodbye_unknown: 'Goodbye!'
   choose_option: 'Choose option: '
   start_option: 'start - start the game'
   rules_option: 'rules - show rules'

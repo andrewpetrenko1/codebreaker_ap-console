@@ -7,6 +7,7 @@ ru:
   enter_name: 'Введите своё имя: '
   hello: 'Привет, %{name}'
   goodbye: 'Пока, %{name}'
+  goodbye_unknown: 'Пока!'
   choose_option: 'Выберите опцию: '
   start_option: 'start - начать игру'
   rules_option: 'rules - показать правила'
