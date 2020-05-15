@@ -77,7 +77,6 @@ class Console
 
   def game_process
     show_game_options
-    puts @game.secret_code.join
     enter_game_option
     puts @game.check_answer(@player.answer)
   end
