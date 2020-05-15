@@ -22,8 +22,8 @@ class Console
 
   def show_welcome_message
     puts I18n.t(:choose_option)
-    puts "#{I18n.t(:start_option)} \n#{I18n.t(:rules_option)}"
-    puts "#{I18n.t(:stats_option)} \n#{I18n.t(:exit_option)}"
+    puts "#{I18n.t(:start_option)}\n#{I18n.t(:rules_option)}"
+    puts "#{I18n.t(:stats_option)}\n#{I18n.t(:exit_option)}"
   end
 
   def show_goodbye_message

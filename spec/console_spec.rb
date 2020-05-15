@@ -70,7 +70,7 @@ RSpec.describe Console do
       end
       it 'takes hint' do
         hint = game.instance_variable_get(:@hints_code).dup
-        expected_output(/Hint: #{hint.pop}\nYou have: hints - 1, attempts - 15./)
+        expected_output(/Hint: #{hint.pop}\n/)
       end
       it 'shows answer error' do
         expected_output(/Numbers must be from 1 to 6!/)
