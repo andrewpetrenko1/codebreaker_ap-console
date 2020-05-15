@@ -91,22 +91,23 @@ class Console
       case answer = STDIN.gets.chomp
       when HINT then puts I18n.t(:hint, hint: @game.take_hint)
       when I18n.t(:exit) then close_game && break
-      else
-        errors = @player.setup_answer(answer)
-        break unless @player.answer.nil?
-
-        puts errors
+      else errors = @player.setup_answer(answer)
       end
+      break if errors == answer
+
+      puts errors
     end
   end
 
   def save_stat?
+    puts I18n.t(:game_win)
     puts I18n.t(:save_stats)
     choose = STDIN.gets.chomp.downcase
     @game.save_stats(@player.name, @game.difficulty) if choose == YES
   end
 
   def try_again?
+    puts I18n.t(:game_lose, code: @game.secret_code.join) unless @game.win?
     puts I18n.t(:try_again)
     again = STDIN.gets.chomp.downcase
     close_game unless again == YES
