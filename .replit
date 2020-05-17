@@ -1,2 +1,2 @@
 language = "ruby"
-run = "gem install i18n; gem install codebreaker_ap;echo '\n\n';ruby main.rb;"
+run = "ruby main.rb;"
