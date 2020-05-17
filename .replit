@@ -1,0 +1,2 @@
+language = "ruby"
+run = "echo 1; ruby main.rb"
